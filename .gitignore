@@ -1,0 +1,30 @@
+# dependencies
+node_modules
+
+# builds
+types
+build
+dist
+lib
+es
+artifacts
+coverage
+*.tgz
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.next
+
+npm-debug.log*
+.history
+stats.json
+stats.html
+.vscode/settings.json
+
+*.log
+.cache

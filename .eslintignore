@@ -1,0 +1,9 @@
+.vscode
+node_modules
+dist
+public
+coverage
+esm
+es
+cjs
+/packages/apm/src/assets

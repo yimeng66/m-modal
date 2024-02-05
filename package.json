@@ -1,0 +1,30 @@
+{
+  "name": "m-modal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm clean && pnpm typecheck && rollup --config rollup.config.js ",
+    "clean": "pnpm -r -c exec  \"rimraf -rf dist\"",
+    "typecheck": "tsc -b"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ym/m-modal-vue": "workspace:*"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-typescript": "^7.23.3",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@types/babel__core": "^7.20.5",
+    "@vue/babel-plugin-jsx": "^1.2.1",
+    "rimraf": "^5.0.5",
+    "rollup": "^4.9.6",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-visualizer": "^5.12.0",
+    "sass": "^1.70.0",
+    "typescript": "^5.3.3"
+  }
+}

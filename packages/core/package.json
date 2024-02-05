@@ -1,0 +1,31 @@
+{
+  "name": "@ym/modal-core",
+  "version": "1.0.0",
+  "private": false,
+  "description": "modal component",
+  "main": "dist/umd/index.js",
+  "module": "dist/esm/index.esm.js",
+  "types": "dist/esm/index.d.ts",
+  "sideEffects": false,
+  "author": "YiMeng",
+  "license": "MIT",
+  "keywords": [
+    "vue3",
+    "modal",
+    "typescript"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/esm/index.d.ts",
+      "import": "./dist/esm/index.esm.js",
+      "default": "./dist/esm/index.esm.js",
+      "require": "./dist/common/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "./dist/common/**/*",
+    "./dist/esm/**/*",
+    "./dist/umd/**/*"
+  ]
+}

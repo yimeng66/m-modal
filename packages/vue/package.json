@@ -1,0 +1,20 @@
+{
+  "name": "@ym/m-modal-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/umd/index.umd.js",
+  "module": "dist/esm/index.esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vue": "^3.4.15",
+    "@ym/shared": "workspace:*",
+    "@ym/modal-core": "workspace:*"
+  },
+  "peerDependencies": {
+    "vue": "^3.4.15"
+  }
+}
